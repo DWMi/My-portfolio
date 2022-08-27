@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+<script defer src="logic.js"></script>
+    <title>My Profile</title>
+
+</head>
+<body>
+    
+    <section class="container flex column">
+        <header class="navCon flex">
+            <section class="logoCon flex deadCenter row ">
+                <div class="logo flex" id="logo">
+                    <h1>David <span>Wong</span></h1>  
+                </div>
+            </section>
+            <div class="navInfo flex">
+                <h2 class="myProject" id="myProject">Projects</h2>
+                <h2 class="contact" id="contact">Contact</h2>
+            </div>
+        </header>
+        <section class="snapCon firstContainer flex row">
+            <div class="childSnap flex centerHCol">  
+                <h1 class="header" >I'm a Jr.Webdeveloper.</h1>
+                <p class="info">I am now currently studying to be a Fullstack Webdeveloper at Medeinstiutet in Gothenburg.
+                I like working with JS based languages. As a person I'm motivated, ambitious, seeking for perfection in my work and always open to learn new stuff.
+                </p>
+            </div>
+            <div class="imgCon">
+                <img class="coderSVG" src="./assets/programmer-svgrepo-com.svg" alt="">
+            </div>
+        </section>
+        <section class="snapCon">
+            <div class="childSnap">  
+                <h1 class="projectTitle flex centerHRow">Some of my Projects</h1>   
+                <div class="projectCon flex centerHRow">
+                    <div class="react-store flex centerHCol">
+                        <a class="rs" href="https://github.com/DWMi/React-Store">
+                            <img src="./assets/React-store.png" class="optical" alt="Optical | a React + TS based webstore">
+                            <h4 class="picInfo1">Optical | a React + TS based webstore</h4>
+                        </a>
+                    </div>
+                    <div class="sneakersWebshop flex centerVCol">
+                        <a class="sw" href="https://github.com/DWMi/Projektarbete-Webbshop">
+                            <img src="./assets/Sneakers webshop.png" class="sneakers" alt="Sneakers Webshop | A project with php as backend with PHPmyADmin SQL DB">
+                            <h4 class="picInfo4">Sneakers Webshop | A project with php as backend with PHPmyADmin SQL DB</h4>
+                        </a>
+                    </div>
+                    <div class="wpSAD flex centerHCol">
+                        <a class="wps" href="https://github.com/DWMi/Wordpress---Webshop">
+                            <img src="./assets/wordpress SAD.png" class="SAD" alt="SAD store | A sportstore that is powered by Wordpess">
+                            <h4 class="picInfo3">SAD store | A sportstore that is powered by Wordpess</h4>
+                            
+                        </a>
+                    </div>
+                    <div class="fetchAppWP flex centerVCol">
+                        <a  class="fawp" href="https://github.com/DWMi/inlamning-2-ERP">
+                            <img src="./assets/ERP.png" class="ERP" alt="Fetch app | An app that fetches info from Wordpress">
+                            <h4 class="picInfo2">Fetch app | An app that fetches info from Wordpress</h6>
+                        </a>
+                    </div>
+                    <div class="techStore flex centerVCol">
+                        <a class="ts7" href="https://github.com/DWMi/TechStore7">
+                            <img src="./assets/techStore pic.png" class="techStoreProject" alt="A tech webshop | A simple webstore that's specified localstorage">
+                            <h4 class="picInfo5">A tech webshop | A simple webstore that's specified localstorage</h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+            <section class="snapCon">
+                <div class="childSnap">  
+                    <h1 class="socHeader" >Contacts & Links</h1>
+                    <div class="socialCon flex row">
+                        <div class="socials flex column">
+                            <i id="mail" class="far fa-envelope"></i>
+                            <i id="gh" class="fab fa-github"></i>
+                            <i id="ig" class="fab fa-instagram"></i>
+                            <i id="fb" class="fab fa-facebook-square"></i>
+                            <i id="li" class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="socialText flex column">
+                            <a class="mail" href="mailto:cf.davidwong@gmail.com">Mail</a>
+                            <a class="github" href="www.github.com/DWMi">Github</a>
+                            <a class="insta" href="www.instagram.com/daviewong">Instagram</a>
+                            <a class="face" href="https://www.facebook.com/Wong.Davie">Facebook</a>
+                            <a class="linkedin" href="https://www.linkedin.com/in/david-wong-a904a5237/">LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    </section>
+</body>
+</html>
