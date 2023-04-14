@@ -1,7 +1,7 @@
 import "./App.css";
 import React from "react";
 import { Parallax } from "react-parallax";
-import name from "/src/assets/davidwong.png";
+import name from "/src/assets/Davidwong.png";
 import hisingen from "/src/assets/hisingen.jpg";
 import mistyWoods from "/src/assets/mistywoods.jpg";
 import botanic from "/src/assets/botanic.jpg";
