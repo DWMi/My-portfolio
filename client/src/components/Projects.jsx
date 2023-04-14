@@ -1,8 +1,8 @@
 import React, { useState, useMemo } from "react";
 import AliceCarousel from "react-alice-carousel";
 import sad from "../assets/projects/SAD.webp";
-import sneakers from "../assets/projects/sneakers webshop.png";
-import techstore from "../assets/projects/techStore pic.png";
+import sneakers from "../assets/projects/Sneakerswebshop.png";
+import techstore from "../assets/projects/techStorepic.png";
 import qwerty from "../assets/projects/QWERTY.png";
 import distort from "../assets/projects/DISTORT.png";
 import optical from "../assets/projects/optical.png";
