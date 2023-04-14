@@ -15,7 +15,7 @@ const projectTexts = [
     description:
       "Sneakers is an E-commerce built on Vanilla JS and PHP in the backend and PhpMyAdmin as Database to learn class orientation.",
     stacks: ["JavaScript", "PHP", "HTML", "CSS", "MySQL"],
-    image: "/src/assets/projects/Sneakers webshop.png",
+    image: "/src/assets/projects/Sneakerswebshop.png",
     link: "https://github.com/DWMi/Projektarbete-Webbshop",
   },
   {
@@ -23,7 +23,7 @@ const projectTexts = [
     description:
       "TechStore is a tech E-commerce built on ReactJS with Stripe implemented to learn how to implement Stripe and all products are stored in Stripe.",
     stacks: ["JavaScript", "HTML", "CSS", "Stripe", "nodeJS"],
-    image: "/src/assets/projects/techStore pic.png",
+    image: "/src/assets/projects/techStorepic.png",
     link: "https://github.com/DWMi/Techstore-Stripe-edition",
   },
   {
@@ -53,7 +53,7 @@ const projectTexts = [
   },
 ];
 
-const ProjectModal = ({ isOpen, onClose, title }) => {
+const ProjectModal = ({ isOpen, onClose, title,windowWidth }) => {
   const project = projectTexts.find((project) => project.title === title);
   if (!isOpen) {
     return null;
@@ -91,7 +91,7 @@ const ProjectModal = ({ isOpen, onClose, title }) => {
               id="detailGithublink"
               content={`Click to see the Github repo of ${title}`}
             />
-            {window.innerWidth <= 768 ? <div className="rotate-text">Click here to see repo<br/> ⬇️</div> : null}
+            {windowWidth <= 768 ?  <div className="rotate-text">Click here to see repo<br/> ⬇️</div> : null}
             <a
             style={{ color: "white", textDecoration: "none" }}
             href={project.link}

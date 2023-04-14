@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from "react";
+import React, { useState,useEffect, useMemo } from "react";
 import AliceCarousel from "react-alice-carousel";
 import sad from "../assets/projects/SAD.webp";
 import sneakers from "../assets/projects/Sneakerswebshop.png";
@@ -24,7 +24,12 @@ const Projects = () => {
     "Optical Trends",
   ];
   const [modalOpen, setModalOpen] = useState(false);
-
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  useEffect(() => {
+    const handleResize = () => setWindowWidth(window.innerWidth);
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
   const handleSlideChanged = (event) => {
     const currentIndex = event.item;
     const currentTitle = itemTitles[currentIndex];
@@ -174,7 +179,7 @@ const Projects = () => {
         id="slideTitleText"
         content={`Click to see more about ${title}`}
       />
-      {window.innerWidth <= 768 ? <div className="rotate-text">Click here <br/> ⬇️</div> : null}
+      {windowWidth <= 768 ?  <div className="rotate-text">Click here <br/> ⬇️</div> : null}
       <div style={{ width: "100%", display: "flex", justifyContent: "center" }}>
         <h3
           className="slideTitle"
@@ -188,6 +193,7 @@ const Projects = () => {
         isOpen={modalOpen}
         onClose={() => setModalOpen(false)}
         title={title}
+        windowWidth={windowWidth}
       ></ProjectModal>
       <div className="carouselContainer">
         <AliceCarousel

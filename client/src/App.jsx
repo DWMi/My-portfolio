@@ -28,7 +28,7 @@ function App() {
               text={
                 "Hey, I'm a Fullstack developer who leans towards Front End. I'm motivated, ambitious, and always looking to learn new things. Let's build something great together!"
               }
-            /> 
+            />
           </div>
         )}
       ></Parallax>
@@ -41,8 +41,10 @@ function App() {
       <Parallax strength={400}>
         <div className="contentImg"></div>
       </Parallax>
-      <Parallax strength={800} bgImage={botanic}
-      renderLayer={(percentage) => (
+      <Parallax
+        strength={800}
+        bgImage={botanic}
+        renderLayer={(percentage) => (
           <div className="contentImg">
             <div
               className="aboutTitle"
@@ -51,11 +53,11 @@ function App() {
               ABOUT ME
             </div>
           </div>
-        )}>
-      </Parallax>
+        )}
+      ></Parallax>
       <Parallax strength={400}>
         <div className="contentAbout">
-            <AboutMe/>
+          <AboutMe />
         </div>
       </Parallax>
     </div>
