@@ -1,0 +1,56 @@
+{
+  "hash": "4d04d3b4",
+  "browserHash": "ea363ecc",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "6b8a0f95",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "37fc69c4",
+      "needsInterop": true
+    },
+    "react-parallax": {
+      "src": "../../node_modules/react-parallax/lib/index.js",
+      "file": "react-parallax.js",
+      "fileHash": "0d932d9e",
+      "needsInterop": true
+    },
+    "react-icons/ai": {
+      "src": "../../node_modules/react-icons/ai/index.esm.js",
+      "file": "react-icons_ai.js",
+      "fileHash": "646b7919",
+      "needsInterop": false
+    },
+    "react-alice-carousel": {
+      "src": "../../node_modules/react-alice-carousel/lib/react-alice-carousel.js",
+      "file": "react-alice-carousel.js",
+      "fileHash": "411bb1f4",
+      "needsInterop": true
+    },
+    "react-icons/hi": {
+      "src": "../../node_modules/react-icons/hi/index.esm.js",
+      "file": "react-icons_hi.js",
+      "fileHash": "72b02475",
+      "needsInterop": false
+    },
+    "react-tooltip": {
+      "src": "../../node_modules/react-tooltip/dist/react-tooltip.esm.min.js",
+      "file": "react-tooltip.js",
+      "fileHash": "de2748e7",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-6TTJTGLE": {
+      "file": "chunk-6TTJTGLE.js"
+    },
+    "chunk-QSQYAWSL": {
+      "file": "chunk-QSQYAWSL.js"
+    }
+  }
+}
