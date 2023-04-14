@@ -7,7 +7,7 @@ import {
 import {HiOutlineDocumentDownload} from "react-icons/hi"
 import "../styles/Socials.css";
 import { Tooltip } from "react-tooltip";
-import myCV from "../assets/cv-DavidWong.pdf"
+import myCV from "../assets/CVDavidWong.pdf"
 const Socials = () => {
   return (
     <>
