@@ -1,0 +1,62 @@
+
+.aboutContainer{
+    display: flex;
+    height: 100vh;
+    width:100%;
+}
+
+.skills{
+    display: flex;
+    width: 50%;
+   justify-content: space-between;
+}
+.aboutMe{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.proPic{
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+  }
+  
+.aboutMeText{
+    font-size: 20px;
+    width: 50%;
+    color: white;
+    text-align: start;
+    letter-spacing: 2px;
+}
+@media only screen and (max-width: 768px) {
+    .aboutContainer{
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+    }
+
+    .skills{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .aboutMe{
+        width: 100%;
+    }
+
+    .proPic{
+        float: left;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .aboutMeText{
+        width: 90%;
+        font-size: 15px;
+        padding: 10px;
+        text-align: center;
+    }
+}

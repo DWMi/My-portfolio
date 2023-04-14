@@ -1,0 +1,136 @@
+
+.contentImg{
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content{
+  height: 50vh;
+}
+
+.textContent{
+  position: absolute;
+  top: 30%;
+  left:50%;
+  padding: 5px 15px;
+  transform: translate(-50%, -50%);
+  color: white;
+  border-radius: 10px;
+  font-size: 50px;
+
+}
+.introContent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.name{ 
+  width:65%;
+  
+}
+.pos{
+  font-size:40px;
+  top: 32%;
+  position: absolute;
+  color:white;
+}
+.contentNoImg{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+}
+.aboutTitle {
+  position: absolute;
+  font-weight: bold;
+  font-size: 200px;
+  text-align: start;
+  width: 100%;
+  padding: 20px;
+  color: rgba(255, 255, 255, 0.705);
+  transform: translateX(-100vw);
+  transition: transform 1s;
+}
+
+.aboutInfo {
+  position: absolute;
+  color: white;
+  align-items: center;
+  text-align: center;
+  font-size: 40px;
+  word-wrap: break-word;
+  padding:30px;
+  width:80%;
+    text-shadow: -1px -1px 0 #000,  
+  1px -1px 0 #000,
+ -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+.projectTitle{
+  height: 50vh;
+  font-size: 60px;
+  color:white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.skillsTitle {
+  position: absolute;
+  height: 50vh;
+  font-size: 60px;
+  color:rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-shadow: -1px -1px 0 #000,  
+  1px -1px 0 #000,
+ -1px 1px 0 #000,
+  1px 1px 0 #000;
+
+}
+
+
+@media only screen and (max-width: 768px) {
+  .name{ 
+    width:100%;
+    margin-top: 20%;
+  }
+  .pos {
+    font-size: 30px;
+    top: 25%;
+  }
+
+  .aboutInfo {
+
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+  }
+  .aboutTitle {
+    position: absolute;
+    font-weight: bold;
+    font-size:60px;
+    text-align: start;
+    width: 100%;
+    padding: 20px;
+    color: rgba(255, 255, 255, 0.705);
+    transform: translateX(-100vw);
+    transition: transform 1s;
+  }
+
+  .contentAbout{
+  display: flex;
+  flex-direction: column;
+      
+  }
+}
