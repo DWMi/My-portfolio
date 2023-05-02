@@ -1,13 +1,20 @@
 import React from "react";
 import "../styles/ProjectModal.css";
 import { Tooltip } from "react-tooltip";
+
+import sad from "../assets/projects/SAD.webp";
+import sneakers from "../assets/projects/Sneakerswebshop.png";
+import techstore from "../assets/projects/techStorepic.png";
+import qwerty from "../assets/projects/QWERTY.png";
+import distort from "../assets/projects/DISTORT.png";
+import optical from "../assets/projects/optical.png";
 const projectTexts = [
   {
     title: "SAD Active",
     description:
       "Sad Active is an E-commerce built on WordPress using Woocommerce and uses MySql and PhpMyAdmin as a Database.",
     stacks: ["JavaScript", "PHP", "MySQL", "WordPress", "Woocommerce", "CSS"],
-    image: "../assets/projects/SAD.webp",
+    image:`${sad}`,
     link: "https://github.com/DWMi/Wordpress---Webshop",
   },
   {
@@ -15,7 +22,7 @@ const projectTexts = [
     description:
       "Sneakers is an E-commerce built on Vanilla JS and PHP in the backend and PhpMyAdmin as Database to learn class orientation.",
     stacks: ["JavaScript", "PHP", "HTML", "CSS", "MySQL"],
-    image: "../assets/projects/Sneakerswebshop.png",
+    image: `${sneakers}`,
     link: "https://github.com/DWMi/Projektarbete-Webbshop",
   },
   {
@@ -23,7 +30,7 @@ const projectTexts = [
     description:
       "TechStore is a tech E-commerce built on ReactJS with Stripe implemented to learn how to implement Stripe and all products are stored in Stripe.",
     stacks: ["JavaScript", "HTML", "CSS", "Stripe", "nodeJS"],
-    image: "../assets/projects/techStorepic.png",
+    image: `${techstore}`,
     link: "https://github.com/DWMi/Techstore-Stripe-edition",
   },
   {
@@ -31,7 +38,7 @@ const projectTexts = [
     description:
       "Qwert-Keyboards is an E-commerce selling Custom build Mechanical Keyboards. This was my Exam Project which was built in NextJS and MongoDB. This project is Deployed using Vercel where you can visit",
     stacks: ["JavaScript", "NextJS", "MongoDB", "CSS"],
-    image: "../assets/projects/QWERTY.png",
+    image: `${qwerty}`,
     link: "https://github.com/DWMi/QWERTY-exam",
     link2: "https://qwertykeyboards.vercel.app/",
   },
@@ -40,7 +47,7 @@ const projectTexts = [
     description:
       "DISTORT is a chat-app built using Socket.io in Nodejs and Express server. It's also using 2 different API's(Giphy, Emoji-api), in purpose of having the / short-command like Discord.",
     stacks: ["JavaScript", "CSS", "Express", "nodeJS", "Socket.io"],
-    image: "../assets/projects/DISTORT.png",
+    image: `${distort}`,
     link: "https://github.com/DWMi/Distort",
   },
   {
@@ -48,7 +55,7 @@ const projectTexts = [
     description:
       "Optical Trends is an E-commerce selling sunglasses and it was built using ReactJS and TypeScript where the products are saved in LocalStorage. In this project we practiced usinc CRUD,typeScript and React",
     stacks: ["TypeScript", "React", "MaterialUI"],
-    image: "../assets/projects/optical.png",
+    image: `${optical}`,
     link: "https://github.com/DWMi/React-Store",
   },
 ];
